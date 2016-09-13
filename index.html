@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Name</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  body {
+    position: relative;
+  }
+  #home {
+    padding-top:50px;
+    height:600px;
+    color: #000;
+    background-color: #fff;
+    background: url(uiuc.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+  }
+  #about {
+    height:600px;
+    background-color: aliceblue;
+  }
+  #portfolio {
+    height: 600px;
+    background-color: #fff;
+  }
+  #contact {
+    height:600px;
+    background-color: aliceblue;
+  }
+  #footer {
+    height:50px;
+    background-color: #fff;
+  }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Name</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div id="home" class="container-fluid">
+  <center>
+    <h1>Name</h1>
+    <img src="profile_default.png" class="img-circle" alt="me">
+    <h3>Student - Univeristy of Illinois At Urbana-Champaign</h3>
+  </center>
+</div>
+<div id="about" class="container-fluid">
+  <h1>About Me</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer placerat mattis leo, non cursus diam mattis eget. Suspendisse pretium faucibus sem vitae sagittis. Duis vel elit aliquet, blandit magna et, consectetur quam. Proin rhoncus sapien vitae ex vehicula egestas. Duis accumsan dui non nisl ultricies, at auctor magna bibendum. Sed egestas est dui, ut malesuada libero sollicitudin ac. Maecenas tempus sed ipsum quis sodales. Proin eget hendrerit nisi. Aenean sollicitudin feugiat orci, id mattis nunc iaculis sit amet. Donec tempor tellus dui, vel aliquet mi aliquet non. Nullam ullamcorper massa et ipsum hendrerit mollis. Maecenas fermentum, tortor at rutrum varius, eros massa porta erat, at fringilla ante justo eget urna.</p>
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Resume</button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Title</h4>
+          </div>
+          <div class="modal-body">
+            <p>Add Your Resume In the Object data tag</p>
+            <object data="resume.pdf"></object>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+</div>
+<div id="portfolio" class="container-fluid">
+  <h1>Portfolio</h1>
+  <div class="row">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-picture logo slideanim slide" style="font-size: 30em;color: orange;"></span>
+    </div>
+    <div class="col-sm-8">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer placerat mattis leo, non cursus diam mattis eget. Suspendisse pretium faucibus sem vitae sagittis. Duis vel elit aliquet, blandit magna et, consectetur quam. Proin rhoncus sapien vitae ex vehicula egestas. Duis accumsan dui non nisl ultricies, at auctor magna bibendum. Sed egestas est dui, ut malesuada libero sollicitudin ac. Maecenas tempus sed ipsum quis sodales. Proin eget hendrerit nisi. Aenean sollicitudin feugiat orci, id mattis nunc iaculis sit amet. Donec tempor tellus dui, vel aliquet mi aliquet non. Nullam ullamcorper massa et ipsum hendrerit mollis. Maecenas fermentum, tortor at rutrum varius, eros massa porta erat, at fringilla ante justo eget urna.</p>
+    </div>
+  </div>
+
+
+</div>
+<div id="contact" class="container-fluid">
+  <div class="col-sm-6">
+    <h1>Contact</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer placerat mattis leo, non cursus diam mattis eget. Suspendisse pretium faucibus sem vitae sagittis. Duis vel elit aliquet, blandit magna et, consectetur quam. Proin rhoncus sapien vitae ex vehicula egestas. Duis accumsan dui non nisl ultricies, at auctor magna bibendum. Sed egestas est dui, ut malesuada libero sollicitudin ac. Maecenas tempus sed ipsum quis sodales. Proin eget hendrerit nisi. Aenean sollicitudin feugiat orci, id mattis nunc iaculis sit amet. Donec tempor tellus dui, vel aliquet mi aliquet non. Nullam ullamcorper massa et ipsum hendrerit mollis. Maecenas fermentum, tortor at rutrum varius, eros massa porta erat, at fringilla ante justo eget urna.</p>
+  </div>
+
+  <div class="col-sm-6">
+     <h2>Send Me a Message</h2>
+    <p>Provide Name, E-mail, And Message</p>
+  <form>
+    <div class="form-group">
+      <div class="col-xs-4">
+        <label for="name">Name</label>
+      </div>
+      <div class="col-xs-8">
+        <input class="form-control" id="name" type="text" required>
+      </div>
+      <br><br>
+
+      <div class="col-xs-4">
+        <label for="name">Email</label>
+      </div>
+      <div class="col-xs-8">
+        <input class="form-control" id="name" type="text" required>
+      </div>
+      <br><br>
+
+      <div class="col-xs-4">
+        <label for="name">Message</label>
+      </div>
+      <div class="col-xs-8">
+        <textarea class="form-control" id="name" type="text" style="height:300px;margin-bottom:10px;" required></textarea>
+      </div>
+      <br><br>
+
+      <div class="col-xs-8">
+        <label></label>
+      </div>
+      <div class="col-xs-4">
+        <input class="form-control" id="submit" type="submit" value="Send">
+      </div>
+
+    </div>
+  </form>
+  </div>
+</div>
+<div id="footer" class="container-fluid">
+  <center>
+    &copy; Name
+  </center>
+</div>
+
+<script>
+$(document).ready(function(){
+  $('body').scrollspy({target: ".navbar", offset: 50});
+  $("#myNavbar a").on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top - 50
+      }, 800, function(){
+        window.location.hash = hash;
+      });
+    }
+  });
+});
+</script>
+
+</body>
+</html>
